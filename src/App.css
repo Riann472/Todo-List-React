@@ -1,0 +1,39 @@
+.app{
+    background-color: #64748b;
+    color: #efefef;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container{
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #cbd5e1;
+    width: 40vw;
+}
+
+.container form{
+    gap: 15px;
+}
+
+.container input, .container button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container button{
+    cursor: pointer;
+    background-color: #64748b;
+    color: #fff;
+}
+
+.task{
+    width: 100%;
+    justify-content: flex-start;
+}
