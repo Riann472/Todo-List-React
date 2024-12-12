@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
-import MeuCu from './pages/MeuCu'
+import Detalhes from './pages/Detalhes'
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/meucu' element={<MeuCu />}/>
+        <Route path='/detalhes' element={<Detalhes />}/>
       </Routes>
     </Router>
   )

@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #64748b;
+    height: 100vh;
+}
+
+.principal h1{
+    color: #fff;
+    padding: 20px;
+}
+
+.principal div{
+    color: #475569; 
+}
+
+.quebrada{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.quebrada svg{
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    color: #efefef;
+    left: 30px;
+}
+
